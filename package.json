@@ -1,0 +1,28 @@
+{
+  "name": "@iwonz/steamcmd",
+  "version": "1.0.0",
+  "description": "Cross-platform wrap over steamcmd",
+  "bin": {
+    "steamcmd": "./bin/steamcmd"
+  },
+  "main": "index.js",
+  "keywords": [
+    "steam",
+    "steamcmd",
+    "boilerplate",
+    "hlds"
+  ],
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "author": "iwonz",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "gunzip-maybe": "^1.4.1",
+    "rimraf": "^3.0.0",
+    "tar-fs": "^2.0.0",
+    "unzip": "^0.1.11",
+    "yargs": "^14.2.0"
+  }
+}
