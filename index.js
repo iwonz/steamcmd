@@ -1,5 +1,4 @@
 // Add eslint + prettier
-// Rebuild with Vorpal as CLI https://github.com/dthree/vorpal
 // Problem with tilde ~
 // Fix to app_id 90
 // Error in PC console
@@ -9,29 +8,54 @@
 
 const os = require('os');
 const path = require('path');
+const inquirer = require('inquirer');
+inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
 const { exec } = require('child_process');
 
-const argv = require('yargs')
-  .option('path', {
-    type: 'string',
-    description: 'The path to the folder where the dedicated server will be deployed'
-  })
-  .option('app_id', {
-    type: 'number',
-    description: 'Dedicated server app_id from https://developer.valvesoftware.com/wiki/Dedicated_Servers_List',
-    default: 90 // Counter-Strike 1.6
-  })
-  .option('app_set_config', {
-    type: 'string',
-    description: 'Additional config to HLDS modes (see examples here https://developer.valvesoftware.com/wiki/Dedicated_Servers_List)',
-    default: 'mod cstrike' // Counter-Strike 1.6
-  })
-  .demandOption(['path'])
-  .argv;
-
+const getDedicatedServersList = require('./dedicated-servers-list');
 const downloadSteamcmd = require('./steamcmd-downloader');
 
-const STEAMCMD_FOLDER_PATH = path.resolve(argv.path, './steamcmd');
+// const STEAMCMD_FOLDER_PATH = path.resolve(argv.path, './steamcmd');
+
+inquirer
+  .prompt([
+    {
+      type: 'input',
+      name: 'dest',
+      message: 'The path to the folder where the dedicated server will be deployed:',
+      default: path.resolve('dedicated_server')
+    },
+    {
+      type: 'autocomplete',
+      name: 'app_id',
+      message: 'Select dedicated server from list (use app_id or game name for search)',
+      pageSize: 5,
+      source: (answers, input) => getDedicatedServersList(input)
+    },
+    {
+      type: 'input',
+      name: 'app_set_config',
+      message: 'app_set_config',
+      default: (answers) => {
+        const { app_id } = parseAnswer(answer);
+      }
+    }
+  ])
+  .then(answers => {
+    console.log(JSON.stringify(answers, null, '  '));
+
+    // main();
+  });
+
+const parseAnswer = (answer) => {
+  const splitted = answer.split('app_id:');
+
+  return {
+    game: splitted[0],
+    app_id: splitted[2],
+    notes: splitted[4] || null
+  };
+};
 
 const getCommand = () => {
   const isWin32 = os.platform() === 'win32';
@@ -57,5 +81,3 @@ async function main() {
     console.error(`stderr: ${stderr}`);
   });
 };
-
-main();

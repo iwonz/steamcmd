@@ -6,7 +6,6 @@ const os = require('os');
 const gunzip = require('gunzip-maybe');
 const tar = require('tar-fs');
 const rimraf = require('rimraf');
-const argv = require('yargs').argv;
 
 const STEAMCMD_WIN32_URL = 'http://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip';
 const STEAMCMD_OSX_URL = 'http://steamcdn-a.akamaihd.net/client/installer/steamcmd_osx.tar.gz';

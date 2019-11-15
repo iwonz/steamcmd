@@ -1,0 +1,458 @@
+[
+  {
+    "Server": "7 Days to Die Dedicated Server",
+    "ID": "294420",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "",
+    "Notes": "Game purchase required"
+  },
+  {
+    "Server": "ARK: Survival Evolved Dedicated Server",
+    "ID": "376030",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "",
+    "Notes": ""
+  },
+  {
+    "Server": "Arma 3 Dedicated Server",
+    "ID": "233780",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "",
+    "Notes": ""
+  },
+  {
+    "Server": "Black Mesa: Deathmatch  Dedicated Server",
+    "ID": "346680",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "BrainBread 2 Dedicated Server",
+    "ID": "346330",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "",
+    "Notes": "Wiki page"
+  },
+  {
+    "Server": "Blade Symphony Dedicated Server",
+    "ID": "228780",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "No",
+    "Notes": "Game Purchase Required"
+  },
+  {
+    "Server": "BlazeRush Dedicated Server",
+    "ID": "332850",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Counter-Strike Dedicated Server",
+    "ID": "90",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Counter-Strike Global Offensive Dedicated Server",
+    "ID": "740",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": "Game Purchase Required for public server"
+  },
+  {
+    "Server": "Counter-Strike: Condition Zero Dedicated Server",
+    "ID": "90",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": "+app_set_config \"90 mod czero\""
+  },
+  {
+    "Server": "Counter-Strike: Source Dedicated Server",
+    "ID": "232330",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Chivalry Medieval Warfare Dedicated Server",
+    "ID": "220070",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Dark Horizons: Mechanized Corps Dedicated Server",
+    "ID": "312070",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Day of Defeat Dedicated Server",
+    "ID": "90",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": "+app_set_config \"90 mod dod\""
+  },
+  {
+    "Server": "Day of Defeat: Source Dedicated Server",
+    "ID": "232290",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Day of Infamy Dedicated Server",
+    "ID": "462310",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Deathmatch Classic Dedicated Server",
+    "ID": "90",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": "+app_set_config \"90 mod dmc\""
+  },
+  {
+    "Server": "Dota 2 Dedicated Server",
+    "ID": "570",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "No",
+    "Notes": ""
+  },
+  {
+    "Server": "Don't Starve Together Dedicated Server",
+    "ID": "343050",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Fistful of Frags Server",
+    "ID": "295230",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Garry's Mod Dedicated Server",
+    "ID": "4020",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Half-Life 2: Deathmatch Dedicated Server",
+    "ID": "232370",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Hurtworld dedicated server",
+    "ID": "405100",
+    "SteamCMD": "Yes",
+    "Steam Client": "No",
+    "Anonymous Login": "Yes",
+    "Notes": "Bat file for server: Bat file"
+  },
+  {
+    "Server": "Half-Life Deathmatch: Source Dedicated server",
+    "ID": "255470",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Half-Life Dedicated Server",
+    "ID": "90",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": "Wiki page"
+  },
+  {
+    "Server": "Half-Life: Opposing Force  Server",
+    "ID": "90",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": "+app_set_config \"90 mod gearbox\""
+  },
+  {
+    "Server": "Insurgency 2014 Dedicated Server",
+    "ID": "237410",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Insurgency: Modern Infantry Combat Dedicated Server",
+    "ID": "17705",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Just Cause 2: Multiplayer - Dedicated Server",
+    "ID": "261140",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Killing Floor Dedicated Server - Linux",
+    "ID": "215360",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "No",
+    "Notes": "Please create a new account or use a pre-existing one, account doesn't need to own the game; or else you will get the dreaded \"ERROR! Failed to install app '215360' (No subscription)\""
+  },
+  {
+    "Server": "Killing Floor 2 Dedicated Server",
+    "ID": "232130",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Left 4 Dead 2 Dedicated Server",
+    "ID": "222860",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Left 4 Dead Dedicated Server",
+    "ID": "222840",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Natural Selection 2 Dedicated Server",
+    "ID": "4940",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "",
+    "Notes": ""
+  },
+  {
+    "Server": "NS2: Combat Dedicated Server",
+    "ID": "313900",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "No More Room In Hell Dedicated Server",
+    "ID": "317670",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "",
+    "Notes": "Official Page"
+  },
+  {
+    "Server": "Out of Reach Dedicated Server",
+    "ID": "406800",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Pirates, Vikings, and Knights II Dedicated Server",
+    "ID": "17575",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Project Zomboid Dedicated Server",
+    "ID": "108600",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "",
+    "Notes": "Game Purchase Required"
+  },
+  {
+    "Server": "Red Orchestra Linux Dedicated Server",
+    "ID": "223250",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "",
+    "Notes": ""
+  },
+  {
+    "Server": "Ricochet Dedicated Server",
+    "ID": "90",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": "+app_set_config \"90 mod ricochet\""
+  },
+  {
+    "Server": "Rust Dedicated Server",
+    "ID": "258550",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Serious Sam 3 Dedicated Server",
+    "ID": "41080",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "",
+    "Notes": ""
+  },
+  {
+    "Server": "Sven Co-op Dedicated Server",
+    "ID": "276060",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "",
+    "Notes": "Note: for ubuntu server install apt-get install libssl1.0.0:i386 & for Debian:dpkg --add-architecture i386 apt-get install libstdc++6:i386 libssl1.0.0:i386"
+  },
+  {
+    "Server": "Source SDK Base 2006 MP Dedicated Server",
+    "ID": "205",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": "Bug:Linux files missing"
+  },
+  {
+    "Server": "Source 2007 Dedicated Server",
+    "ID": "310",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Source Dedicated Server",
+    "ID": "205",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Source SDK Base 2013 Dedicated Server",
+    "ID": "244310",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Squad Dedicated Server",
+    "ID": "403240",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": "Official Page"
+  },
+  {
+    "Server": "Starbound Dedicated server",
+    "ID": "211820",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "",
+    "Notes": "Game Purchase Required"
+  },
+  {
+    "Server": "Team Fortress 2 Dedicated Server",
+    "ID": "232250",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Team Fortress Classic Dedicated Server",
+    "ID": "90",
+    "SteamCMD": "Yes",
+    "Steam Client": "",
+    "Anonymous Login": "Yes",
+    "Notes": "+app_set_config \"90 mod tfc\""
+  },
+  {
+    "Server": "The Ship Dedicated Server",
+    "ID": "2403",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "",
+    "Notes": ""
+  },
+  {
+    "Server": "Tower Unite Dedicated Server",
+    "ID": "439660",
+    "SteamCMD": "Yes",
+    "Steam Client": "No",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  },
+  {
+    "Server": "Terraria Dedicated Server",
+    "ID": "105600",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "",
+    "Notes": ""
+  },
+  {
+    "Server": "Unturned Dedicated Server",
+    "ID": "304930",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "",
+    "Notes": ""
+  },
+  {
+    "Server": "Zombie Panic Source Dedicated Server",
+    "ID": "17505",
+    "SteamCMD": "Yes",
+    "Steam Client": "Yes",
+    "Anonymous Login": "Yes",
+    "Notes": ""
+  }
+]
